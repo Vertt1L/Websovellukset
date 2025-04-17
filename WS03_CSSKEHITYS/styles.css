@@ -1,0 +1,122 @@
+p {
+    color: blue;
+}
+
+body {
+    background-color: rgb(170, 193, 211);
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+div {
+    padding: 30px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #87c2b0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #87c2b0;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3cff00;
+}
+
+.transition-button {
+    background-color: rgb(14, 16, 17);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transition-button:hover {
+    background-color: lightcoral;
+  }
+
+  .animation-box {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    animation: move 4s infinite alternate;
+  }
+  
+  @keyframes move {
+    from {
+      left: 0;
+    }
+    to {
+      left: 150px;
+    }
+  }
+
+  .pseudo-list li:nth-child(odd) {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .pseudo-list li:nth-child(even) {
+    background-color: rgb(104, 102, 102);
+  }
+
+  .filter-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .filter-image:hover {
+    filter: grayscale(0%);
+  }
+
+  .quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+  }
+  
+  .quote::before {
+    content: '“';
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: blue;
+  }
