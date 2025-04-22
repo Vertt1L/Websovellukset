@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <link rel="stylesheet" href="styles.css" >
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+    <title>Minun ensimmäinen HTML sivu</title>
+  </head>
+  <body>
+    <h1 style="color: blue">Vertti Lietosaari</h1>
+    <p>
+      Moikka! Olen Vertti Lietosaari, 20v Porvoosta. Olen innokas opiskelemaan
+      kaikkea uutta mitä on tällä opintojaksolla. Websivustojen kehittäminen on
+      ollut mielenkiintoista ja erilaista, joka myös motivoi opiskelemaan.
+    </p>
+    <img
+      src="./images/minä.jpg"
+      width="300"
+      height="300"
+      alt="Kuva itsestäni, Vertti Lietosaaresta"
+    >
+    <h2 style="color: blue">Eri harrastuksiani:</h2>
+    <ul style="color: blue">
+      <li>Lumilautailu</li>
+      <li>Musiikki</li>
+      <li>Pelaaminen</li>
+    </ul>
+    <a href="https://learn.microsoft.com/en-us/"
+      >Viimeaikoina hyvässä käytössä ollut Microsoft Learn</a
+    >
+
+    <table style="color: blue">
+      <tr>
+        <th>Kurssini</th>
+        <th>Sisältö</th>
+      </tr>
+      <tr>
+        <td>Websivusto kurssi:</td>
+        <td>Tutustutaan moderniin staattiseen websivuston kehittämiseen.</td>
+      </tr>
+      <tr>
+        <td>Linux kurssi:</td>
+        <td>
+          Johdatus Linux-käyttöjärjestelmän maailmaan ja sen käyttämiseen.
+        </td>
+      </tr>
+      <tr>
+        <td>Professional English:</td>
+        <td>
+          Ammattimaista kommunikaatiota, kirjoitusta ja tiimityöskentelyä
+          englanniksi.
+        </td>
+      </tr>
+    </table>
+
+    <form style="color: blue">
+      <label for="name">Nimi:</label>
+      <input type="text" id="name" name="name" ><br ><br >
+      <label for="email">Sähköposti:</label>
+      <input type="email" id="email" name="email" ><br ><br >
+      <input type="submit" value="Lähetä" >
+    </form>
+    <button class="transition-button">Täällä näin</button>
+    <div class="animation-box"></div>
+    <ul class="pseudo-list">
+      <li>Yksi</li>
+      <li>Kaksi</li>
+      <li>Kolme</li>
+      <li>Neljä</li>
+    </ul>
+    <img src="./images/maa.jpg" width="150" height="150" alt="Maapallo" class="filter-image">
+    <blockquote class="quote" style="color: blue">
+      Jeejee yläpuolellani on maapallo
+    </blockquote>
+
+    <div class="flex-container">
+        <div class="box">Laatikko 1</div>
+        <div class="box">Laatikko 2</div>
+        <div class="box">Laatikko 3</div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-item" style="color: rgb(255, 0, 0)">1</div>
+        <div class="grid-item" style="color: rgb(255, 0, 0)">2</div>
+        <div class="grid-item" style="color: rgb(255, 0, 0)">3</div>
+        <div class="grid-item" style="color: rgb(255, 0, 0)">4</div>
+        <div class="grid-item" style="color: rgb(255, 0, 0)">5</div>
+        <div class="grid-item" style="color: rgb(255, 0, 0)">6</div>
+      </div>
+
+      <div class="responsive-box" style="color: red">Muuta ikkunan kokoa niin näät efektin</div>
+  </body>
+</html>
