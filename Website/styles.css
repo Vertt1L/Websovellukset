@@ -12,11 +12,6 @@
   border-radius: 8px;
 }
 
-nav {
-  z-index: 1000;
-  position: relative;
-}
-
  html, body {
   margin: 0;
   padding: 0;
